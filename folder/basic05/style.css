@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0;}
+
+.wrap{width: 900px;
+    margin: 0 auto; /* 상하좌우 */
+    padding: 10% 0; 
+}
+.wrap>div{
+    margin-top: 50;
+    border-top: 1px solid green;
+}
+.wrap>div h2{text-align: center;
+margin: 10px 0;}
+h1{
+    text-align: center; /* 텍스트정렬 */
+}
+
+.table1 table{width: 100%;
+    border: 1px solid green;
+    text-align: center;
+}
+.table1 table tr{border: 1px solid green;}
+.table1 table tr th{border: 1px solid green;}
+.table1 table tr td{border: 1px solid green;}
+
+.table1-2 table{width: 100%;
+    border: 1px solid green;
+    text-align: center;
+}
+.table1-2 table tr{}
+.table1-2 table tr th{border: 1px solid green;}
+.table1-2 table tr td{border: 1px solid green;}
+
+.table2 table{width: 100%;
+    border: 1px solid green;
+    text-align: center;
+    border-collapse:collapse;   /* 표의 선사이의 공간을 없애줌 */
+    background-color: palevioletred
+}
+.table2 table tr{}
+.table2 table tr:nth-child(1){/* 자식의 tr중에 첫번째 */
+border-bottom: 3px double #000;
+}
+.table2 table tr:nth-child(2){
+    height: 100px;
+}
+.table2 table tr th{border: 1px solid green;}
+.table2 table tr td{border: 1px solid green;}
+
+.table2 table tr th:nth-child(1){width: 20%;}
+.table2 table tr th:nth-child(2){width: 60%;}
+.table2 table tr th:nth-child(3){width: 20%;}
+
+.table3{}
+.table3 table{
+    width: 100%; border-collapse: collapse;
+    text-align: center;
+}
+.table3 table,
+.table3 table th,
+.table3 table td{
+    border: 1px solid green;
+}
+
+.table4{}
+.table4 table{
+    width: 100%; border-collapse: collapse;
+    text-align: center;
+}
+.table4 table,
+.table4 table th,
+.table4 table td{
+    border: 1px solid green;
+}
+
+.table5{}
+.table5 table{
+    width: 100%; border-collapse: collapse;
+    text-align: center;
+}
+.table5 table,
+.table5 table th,
+.table5 table td{
+    border: 1px solid green;
+}
+
+.table6{}
+.table6 table{
+    width: 100%; border-collapse: collapse;
+    text-align: center;
+}
+.table6 table,
+.table6 table th,
+.table6 table td{
+    border: 1px solid green;
+}
