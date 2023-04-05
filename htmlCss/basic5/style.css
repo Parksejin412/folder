@@ -1,0 +1,18 @@
+.one{
+    /* one의 공간 : width+padding+border
+     margin은 one의 공간 밖의 영역 */
+    border: 1px solid salmon;
+    padding: 20px;
+    width: 20px;
+    box-sizing: border-box; 
+    /* //넓이에 padding과 border를 포함시킴 */
+    margin: 20px;
+}
+.two{
+    border: 1px solid slateblue;
+    padding: 20px;
+    margin: 30px;
+}
+.three{
+    border: 1px solid darkblue;
+}
