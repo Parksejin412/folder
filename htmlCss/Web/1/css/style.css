@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* reset */
+li {
+    /* 블릿문자삭제 */
+    list-style: none;
+}
+
+a {
+    /* a태그가 가진 색상과 밑줄을 삭제 */
+    color: #333;
+    text-decoration: none;
+}
+
+/* wrap */
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+    border: 10px solid red;
+}
+
+/* header */
+#header {}
+
+#header h1 {
+    float: left;
+}
+
+#header .nav {
+    float: right;
+    margin-top: 20px;
+}
+
+#header .nav ul {}
+
+#header .nav ul li {
+    float: left;
+    width: 120px;
+    text-align: center;
+}
+#header .nav ul li a {
+    display: block;
+    padding: 20px 15px;
+    background-color: #ccc;
+    transition: 0.3s;
+} 
+
+#header .nav ul li a:hover{
+    background-color: #ddd;
+}
